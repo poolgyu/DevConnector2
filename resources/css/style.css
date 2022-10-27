@@ -391,24 +391,46 @@ button {
   align-items: center;
   justify-content: center;
   text-align: center;
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  margin-top: 4rem;
+  padding: 2rem;
 }
 
 .profile-top img {
   width: 250px;
 }
 
+
 .profile-top .icons a {
   color: #fff;
   margin: 0 0.3rem;
+  
 }
 
 .profile-top .icons a:hover {
   color: var(--dark-color);
 }
 
+.profile-top small {
+  margin: 0.5rem
+}
+
+.profile .border {
+  border: solid #888 1px;
+}
+
+.profile-top h1 {
+  letter-spacing: 2.5px;
+  padding: 0.5rem;
+  font-size: 2rem;
+}
+
 .profile-about {
   grid-area: about;
   text-align: center;
+  background-color: var(--light-color);
+  padding: 2rem 1.5rem 2.5rem 1.5rem;
 }
 
 .profile-about .skills {
@@ -416,11 +438,13 @@ button {
   align-items: center;
   justify-content: center;
   text-align: center;
+  padding-right: 0.7rem;
+  font-size: small;
 }
 
 .profile-exp {
   grid-area: exp;
-}
+ }
 
 .profile-edu {
   grid-area: edu;
@@ -450,6 +474,14 @@ button {
 
 .profile-github {
   grid-area: github;
+
+}
+
+.profile-github small {
+  display: grid;
+  text-align: center;
+  margin: 0.3rem;
+  padding: 0.2rem 0.4rem;
 }
 
 .profile-github .repo {
@@ -464,6 +496,11 @@ button {
 .profile-github > div:last-child {
   flex: 3;
   flex-basis: 20%;
+}
+
+hr.line {
+  width: 100%;
+  object-position: center;
 }
 
 /* Posts Page */
