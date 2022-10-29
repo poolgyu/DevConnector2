@@ -416,10 +416,6 @@ button {
   margin: 0.5rem
 }
 
-.profile .border {
-  border: solid #888 1px;
-}
-
 .profile-top h1 {
   letter-spacing: 2.5px;
   padding: 0.5rem;
@@ -496,11 +492,6 @@ button {
 .profile-github > div:last-child {
   flex: 3;
   flex-basis: 20%;
-}
-
-hr.line {
-  width: 100%;
-  object-position: center;
 }
 
 /* Posts Page */

@@ -28,20 +28,20 @@
         <li><a href="signin.html">Login</a></li>
       </ul>
     </nav>
-    <section class="profile">
+    <section class="container">
       <a class="btn btn-light" href="../html/profiles.html">Back to profiles</a>
-      <div class="">
+      <div class="profile-grid my-1">
         
        
-        <div class="profile-top">
+        <div class="profile-top bg-primary p-2">
           <img
-            class="round-img"
+            class="round-img my-1"
             src="https://www.gravatar.com/avatar/08521a1b3bb07681ad38f2d26e40ea93?s=256"
           />
           <h1>Gyula Kecskés</h1>
           <p>Developer at Microsoft</p>
           <small>Seattle, WA</small>
-          <div class="icons top">
+          <div class="icons my-1">
             <a href="https://www.google.com" target="_blank"><i class="fas fa-solid fa-globe fa-lg"></i></a>
             <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fab fa-twitter fa-lg"></i></a>
             <a href="https://www.facebook.com/gyula.kecskes.77" target="_blank"><i class="fa-brands fab fa-facebook fa-square-facebook fa-lg"></i></a>
@@ -50,53 +50,59 @@
             <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fab fa-instagram fa-lg"></i></a>
           </div>
         </div>
-        <article class="profile-about about border my-1">
+        
+        
+        <article class="profile-about bg-light p-2">
           <h3 class="text-primary">Gyula's Bio</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            
           </p>
           <hr class="line">
           <h3 class="text-primary">Skill Set</h3>
           <ul class="skills">
-            <li class="skills"><i class="fas fa-regular fa-check"></i> Html</li>
-            <li class="skills"><i class="fas fa-regular fa-check"></i> CSS</li>
-            <li class="skills"><i class="fas fa-regular fa-check"></i> Javascript</li>
-            <li class="skills"><i class="fas fa-regular fa-check"></i> Python</li>
-            <li class="skills"><i class="fas fa-regular fa-check"></i> C#</li>
+            <li class="p-1"><i class="fas fa-regular fa-check"></i> Html</li>
+            <li class="p-1"><i class="fas fa-regular fa-check"></i> CSS</li>
+            <li class="p-1"><i class="fas fa-regular fa-check"></i> Javascript</li>
+            <li class="p-1"><i class="fas fa-regular fa-check"></i> Python</li>
+            <li class="p-1"><i class="fas fa-regular fa-check"></i> C#</li>
           </ul>
         </article>
-        <div class="profile-grid">
-          <div class="profile-exp exp border p-2">
+
+
+        <div class="profile-exp bg-white p-2">
             <h2 class="text-primary">Experience</h2>
-            <b>Microsoft</b>
-            <p>Oct 2011 - Current</p>
-            <p><b>Position:</b> Senior Developer</p>
-            <p>
-              <b>Description:</b> Ut enim ad minim veniam, quis nostrud
+            <div>
+              <h3 class="text-dark">Microsoft</h3>
+              <p>Oct 2011 - Current</p>
+              <p><b>Position:</b> Senior Developer</p>
+              <p><b>Description:</b> Ut enim ad minim veniam, quis nostrud
               exercitation ullamco laboris nisi ut aliquip ex ea commodo
               consequat. Duis aute irure dolor in reprehenderit in voluptate
               velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
               occaecat cupidatat non proident, sunt in culpa qui officia
               deserunt mollit anim id est laborum.
-            </p>
-            <hr class="line">
-            <b>Sun Microsystems</b>
-            <p>Nov 2004 - Nov 2011</p>
-            <p><b>Position:</b> Systems Admin</p>
-            <p>
-              <b>Description:</b> Ut enim ad minim veniam, quis nostrud
+              </p>
+            </div>
+            
+            <div>
+              <h3 class="text-dark">Sun Microsystems</h3>
+              <p>Nov 2004 - Nov 2011</p>
+              <p><b>Position:</b> Systems Admin</p>
+              <p><b>Description:</b> Ut enim ad minim veniam, quis nostrud
               exercitation ullamco laboris nisi ut aliquip ex ea commodo
               consequat. Duis aute irure dolor in reprehenderit in voluptate
               velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
               occaecat cupidatat non proident, sunt in culpa qui officia
               deserunt mollit anim id est laborum.
-            </p>
-          </div>
-          <div class="profile-edu edu border p-2">
+              </p>
+            </div>
+        </div>
+          
+        <div class="profile-edu bg-white p-2">
             <h2 class="text-primary">Education</h2>
-            <b>University of Washington</b>
+          <div>
+            <h3 class="text-dark">University of Washington</h3>
             <p>Sep 1993 - June 1999</p>
             <p><b>Degree:</b> Masters</p>
             <p><b>Field of Study:</b> Computer Science</p>
@@ -110,28 +116,37 @@
             </p>
           </div>
         </div>
-        <div class="profile-github github">
-          <h2 class="text-primary"><i class="fa-brands fab fa-github"></i> GitHub Repos</h2>
-          <div class="repo border p-1">
-            <b class="text-primary profile-grid">Repo one</b>
-            <p>
+        
+        
+        <div class="profile-github">
+          <h2 class="text-primary my-1"><i class="fa-brands fab fa-github"></i> GitHub Repos</h2>
+          <div class="repo bg-white my-1 p-1">
+            <div>
+              <h4><a href="#" target="_blank"
+                rel="noopener noreferrer">Repo one</a></h4>
+              <p>
               Turpis egestas integer eget aliquet nibh praesent tristique magna.
               Bibendum arcu vitae elementum curabitur vitae. Tempor commodo
               ullamcorper a lacus.
-            </p>
+              </p>
+            </div>
             <element>
               <small class="badge-primary">Stars: 44</small>
               <small class="badge-dark">Watchers: 21</small>
               <small class="badge-light">Forks: 25</small>
             </element>
+            
           </div>
-          <div class="repo border p-1 my-1">
-            <b class="text-primary profile-grid">Repo two</b>
-            <p>
+          <div class="repo bg-white p-1 my-1">
+            <div>
+              <h4><a href="#" target="_blank"
+              rel="noopener noreferrer">Repo two</a></h4>
+              <p>
               Turpis egestas integer eget aliquet nibh praesent tristique magna.
               Bibendum arcu vitae elementum curabitur vitae. Tempor commodo
               ullamcorper a lacus.
-            </p>
+              </p>
+            </div>
             <element>
               <small class="badge-primary">Stars: 44</small>
               <small class="badge-dark">Watchers: 21</small>
